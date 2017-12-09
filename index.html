@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#be1e2d">
+        <meta name="theme-color" content="#000000">
+        
+        <title>No Love Lost - Erie Arm Wrestling</title>
+        <meta name="description" content="No Love Lost - Erie Arm Wrestling">
+        <meta name="keywords" content="arm wrestling, erie, no love lost, event, arm, wrestling, tom taylor">
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="resources/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kalam:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+        
+        <script src="resources/jquery-3.2.1.min.js"></script>
+
+        <script src="resources/waypoints/lib/jquery.waypoints.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        
+        <script type="text/javascript">
+function showNav(){
+                $("div.navigation").fadeToggle("fast");
+
+            }
+            
+            // Scroll to element
+            $(document).on('click', 'a[href^="#"]', function(e) {
+            // target element id
+            var id = $(this).attr('href');
+
+            // target element
+            var $id = $(id);
+            if ($id.length === 0) {
+                return;
+            }
+
+            // prevent standard hash navigation (avoid blinking in IE)
+            e.preventDefault();
+
+            // top position relative to the document
+            var pos = $id.offset().top;
+
+            // animated top scrolling
+            $('body, html').animate({scrollTop: pos}, 1000);
+            });
+      
+        </script>
+    </head>
+
+    
+    <body>
+<!--
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+-->
+<!--
+        <div class="mobileNav">
+            <img src="resources/img/logo.svg" style="height:100%;">
+            <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+-->
+        <div class="navigation" style="text-align: center">
+         <br>
+
+            <a onclick="showNav()" id="cartX">X</a>
+
+
+            <img id="mobLogo" src="resources/img/logo.png">
+            <br>
+            <br>
+             <a href="#register" onclick="showNav()" class="navItem" style="margin-top:0;">Register</a>
+             <a href="#competitors" onclick="showNav()" class="navItem" >Competitors</a>
+             <a href="#register" onclick="showNav()" class="navItem" >Events</a>
+            <a onclick="showNav()" class="navItem" >Contact</a>
+            
+        </div>
+<div class="topNav">
+    <div class="container" style="height:100%;">
+                <a class="topImg"><img src="resources/img/logo.png" style="height:100%;padding:5px;"></a>
+                <a class="topLink">Contact</a>
+
+                <a href="#competitors" class="topLink">Competitors</a>
+                <a href="#linkswrap" class="topLink">Events</a>
+                <a href="#register" class="topLink">Register</a>
+        
+                <i onclick="showNav()" class="fa fa-bars bars" aria-hidden="true"></i>
+        </div>
+            </div>
+        <header id="head" class="animated fadeIn">
+            <div class="container">
+                <div id="eventCard">
+                <h2 class="upcomingTitle" style="color:#BE1E2D;text-align: left;text-shadow: 2px 2px 3px black;font-weight: 900;margin-top:0px;">Upcoming Event:</h2>
+                <h2 class="upcomingInfo" style="color:white;text-align:left;margin-top:0px;">No Love Lost</h2>
+                <h2 class="upcomingInfo" style="color:white;text-align:left;margin-top:0px;">February 17, 2018</h2>
+                <h2 class="upcomingInfo" style="color:white;text-align:left;margin-top:0px;">Erie, PA</h2>
+                    <a href="#register" class="regBTN" style="float:left;">Register Now</a>
+                    </div>
+            </div>
+        </header>
+        <div id="linksWrap">
+        <div id="links" class="container">
+                <div class="row" style="text-align: center">
+                    <div class="col-sm-4" style="text-align: center;">
+                        <div class="box" style="width:100%;display: inline-block;height:400px;margin-top:50px;">
+                            <h2 class="boxH">Events</h2>
+                          <a href="#register"><img src="resources/img/logo.png" style="width:80%;"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4" style="text-align: center">
+                        <div id="paper" class="box" >
+                            <div style="text-align: center;">
+                           <h2 id="competitors" class="boxH">Featured Matchups:</h2>
+                            <h3 style="top:120px;">Taylor vs Runkle</h3>
+                            
+                            <h3 style="top:180px;">Stiver vs Mendez</h3>
+                            <h3 style="top:240px;">Heynoski vs Franklin</h3>
+                                <h3 style="top:300px;">Martha vs Heynes</h3>
+                                </div>
+                            <img src="resources/img/paper.png" id="img2">
+                        </div>
+                    </div>
+
+                
+            
+                    <div class="col-sm-4">
+                        <div class="box" style="box-shadow: none;background-color: transparent;border:none;">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNo-Love-Lost-Arm-Wrestling-Tournament-136355297070923%2F&tabs=header&width=340&height=120&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                           <a href="https://www.facebook.com/No-Love-Lost-Arm-Wrestling-Tournament-136355297070923/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true" style="font-size: 330px;text-shadow:0px 0px 50px black;"></i></a>
+                        </div>
+                    </div>
+</div>
+            </div>
+        </div>
+        
+        <div id="register" class="register">
+            <div class="registerWrap">
+                <h1>No Love Lost - Event Registration</h1>
+
+                <div class="container">
+<!--                    <h2 style="color:white;background-color: #BE1E2D;padding:5px;">No Love Lost Arm Wrestling</h2>-->
+<!--                    <div style="width:75%;border-top: .5px solid rgba(0,0,0,.25);margin:0 auto;"></div>-->
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-push-6 eventBox" style="margin-left:10px;margin-right:10px;">
+                            <h3 style="margin-top:10px;">Event Details</h3>
+                                        <hr>
+                            <span class="eventInfo" style="font-family: 'Lato', sans-serif;">February 17, 2018</span>
+                            <span class="eventInfo" style="font-family: 'Lato', sans-serif;">Bourbon Barrel</span>
+                            <span class="eventInfo" style="font-family: 'Lato', sans-serif;">1205 State Street, Erie, PA</span>
+                            <span class="eventInfo" style="font-family: 'Lato', sans-serif;">Weigh-In: 12-4 @ Iron Oxygen Fitness</span>
+                            <span class="eventInfo" style="font-family: 'Lato', sans-serif;">Tournament: 6 - 9 PM @ Bourbon Barrel</span>
+                            
+                            <hr>
+                            <span class="eventInfo"><img src="resources/img/flex.png" style="vertical-align: middle;height:20px;"> Free T-Shirt for the first 50 entries</span>
+                            <span class="eventInfo"><img src="resources/img/flex.png" style="vertical-align: middle;height:20px;"> Cash Prizes</span>
+                            <span class="eventInfo"><img src="resources/img/flex.png" style="vertical-align: middle;height:20px;"> Double Elimination</span>
+                            <span class="eventInfo"><img src="resources/img/flex.png" style="vertical-align: middle;height:20px;"> Entry Fee: $20 per hand</span>
+                        </div>
+                                                <div id="entryForm" class="col-sm-6 col-sm-pull-6">
+                            <form data-forge-name="No Love Lost" style="text-align: center;">
+                                    <div class="form-group">
+                                        <h3 style="color:white;">Entry Form</h3>
+                                        
+                                        <hr>
+                                        <p style="font-weight: 100;font-size: 10px;color:white">*You will be redirected to the event registration page on active.com, where you can complete and pay for registration.</p>
+                                        <span style="display: block;color:white;">Name</span>
+                                        <input class="form-control" data-forge-name="Name" type="text" name="name" style="display: block;margin: 0 auto" required>
+                                        <span style="display: block;color:white;">Email</span>
+                                        <input class="form-control" data-forge-name="Email" type="email" name="email" style="display: block;margin: 0 auto" required>
+                                        <span style="display: block;color:white;">Phone</span>
+                                        <input class="form-control" type="text" data-forge-name="Phone" name="phone" style="display: block;margin: 0 auto" required>
+                                        <span style="display: block;color:white;">Weight Class</span>
+                                        <select class="form-control" data-forge-name="Weight" name="weight" style="display: block;margin: 0 auto;padding-top:0px;padding-bottom: 0px;font-size: 26px;">
+                                            <option>Women's - 0 to 143</option>
+                                            <option>Women's - 143+</option>
+                                            <option>Men's Open Right - 0 to 154</option>
+                                            <option>Men's Open Right - 155 to 176</option>
+                                            <option>Men's Open Right - 177 to 198</option>
+                                            <option>Men's Open Right - 199 to 242</option>
+                                            <option>Men's Open Right - 243+</option>
+                                            <option>Men's Open Left - 0 to 154</option>
+                                            <option>Men's Open Left - 155 to 176</option>
+                                            <option>Men's Open Left - 177 to 198</option>
+                                            <option>Men's Open Left - 199 to 242</option>
+                                            <option>Men's Open Left - 243+</option>
+                                            <option>Men's Novice Right - 0 to 198</option>
+                                            <option>Men's Novice Right - 199+</option>
+                                            <option>Men's Novice Left - 0 to 198</option>
+                                            <option>Men's Novice Left - 199+</option>
+                                        </select>
+<!--                                        <input class="form-control" type="text" data-forge-name="Weight" name="weight" style="display: block;max-width:500px;margin: 0 auto" required>-->
+                                        <span style="display: block;color:white;">Comments</span>
+                                        <input class="form-control" data-forge-name="Comments" type="text" name="comments" style="display: block;margin: 0 auto">
+                                    </div>
+                                    <input type="submit" value="Submit" class="btn btn-primary submitBTN">
+                                <p style="font-weight: 100;font-size: 10px;color:white">*You will be redirected to the event registration page on active.com, where you can complete and pay for registration.</p>
+                                    <br>
+                           </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--
+        <br>
+    
+            <div class="container">
+                <div class="row" style="text-align: center">
+                    <div class="col-sm-6">
+                        <div class="box">
+                            <h2 class="boxH">Events</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="box">
+                            <h2 class="boxH">Competitors</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="text-align: center">
+                    <div class="col-sm-6">
+                        <div class="box">
+                            <h2 class="boxH">News</h2>
+                            <img src="resources/img/flex.png" style="height:80%;">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="box">
+                            <h2 class="boxH">Shop</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <br>
+        <div class="footer">
+            FOOTER
+        </div>
+        <br>
+-->
+    </body>  
+</html>
